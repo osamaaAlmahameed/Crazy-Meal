@@ -1,6 +1,6 @@
 ## Live Site
 
-You can view the project here: [Live Link](https://crazy-meal.vercel.app/)
+You can view the project here: [Live for Demo](https://crazy-meal.vercel.app/)
 
 
 ## Report Questions
@@ -9,4 +9,4 @@ You can view the project here: [Live Link](https://crazy-meal.vercel.app/)
   3 hour
 
 - Were there any parts of the lab you found challenging?
-- in js code
+  in js code
