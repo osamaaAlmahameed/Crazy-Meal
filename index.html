@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crazy Meal</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+</head>
+<body>
+  <div id="index-main1">
+    <header>
+      <nav class="flex items-center justify-between">
+        <div class="flex items-center" id="index-header-part-left">
+          <img src="/Images/restaurant-2-fill.png" alt="">
+          <a href="#index.html">Crazy Meal</a>
+        </div>
+        <div id="index-header-part-right">
+          <a href="menu.html">Menu</a>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <div>
+        <h2 id="index-main1-heading">Crazy Meal</h2>
+      </div>
+    </div>
+  </div>
+
+  <div id="index-main2">
+    <div>
+      <form id="orderForm">
+        <input type="text" id="mealName" placeholder="Meal Name" class="form-input" required />
+        <br><br>
+        <input type="number" id="mealPrice" placeholder="Meal Price" class="form-input" required />
+        <br><br>
+        <input type="url" id="mealImage" placeholder="Meal Image URL" class="form-input" required />
+        <br><br>
+        <button type="submit" id="btn-form">Add Order</button>
+      </form>
+      <br>
+      <button id="clearOrders">Clear All Orders</button>
+      <br>
+      <div id="ordersContainer"></div>
+    </div>
+  </div>
+
+  <div id="index-footer" class="flex justify-between items-center">
+    <div class="flex">
+      <img src="/Images/restaurant-2-fill.png" alt="">
+      <a href="#index.html" style="color: rgb(192, 174, 71);">Crazy Meal</a>
+    </div>
+    <div>
+      <p style="color: rgb(192, 174, 71)">&copy; Osama Almahameed 2025</p>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
