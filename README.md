@@ -1,6 +1,5 @@
 ## Live Site
 
-You can view the project here: [Live for Demo](https://crazy-meal.vercel.app/)
 
 
 ## Report Questions
